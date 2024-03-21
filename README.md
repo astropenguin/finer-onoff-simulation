@@ -1,5 +1,5 @@
-# finer-onoff-simulation
-Simulation of PSW/PM observations for FINER
+# onoff-simulation
+Simulation of PSW/PM observations using B4R datasets
 
 # List of datasets
 
