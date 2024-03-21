@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "onoff-simulation"
+version = "0.1.0"
+description = "Simulation of PSW/PM observations using B4R blank sky datasets"
+authors = ["Akio Taniguchi <taniguchi@a.phys.nagoya-u.ac.jp>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+numpy = "^1.26"
+pandas = "^2.2"
+scikit-learn = "^1.4"
+xarray = "^2024.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3"
+ipython = "^8.22"
+jupyter = "^1.0"
+jupyter-io = "^0.2"
+matplotlib = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
